@@ -35,3 +35,11 @@ I see 'Close Window' button enable on 'Order Confirmation' modal
 I click on 'Close Window' button
 I see Order Confirmation' modal is closed
 
+Scenario: Verify Searching an existing order by OrderID
+I navigate to find order page
+I enter Order ID into 'Search for' text box
+I click on search button
+I see order ID displayed in the search result
+
+
+
